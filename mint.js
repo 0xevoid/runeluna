@@ -6,7 +6,7 @@ const luna = {
     chainID: 'phoenix-1',
     lcd: 'https://terra-lcd.publicnode.com', //Tautan LCD Perhatikan bahwa ini adalah LCD, bukan RPC
     gasAdjustment: 1.01,   //gas Setting Multiplier, atur 1,02 menggunakan standar gas yang paling rendah yaitu sekitar 4 poin per gas, jika gagal maka naikkan saja.
-    gasPrices: { uluna: 0.015 },
+    gasPrices: { uluna: 0.15 },
     prefix: 'terra',
   }
 };
